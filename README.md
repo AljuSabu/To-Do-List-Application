@@ -1,16 +1,67 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do List application built with React and Tailwind CSS. It allows users to add tasks, track their completion status, and remove tasks. Tasks are saved in the browser's Local Storage, so they remain available after refreshing the page.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Live Website:** 
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new tasks
+- Mark tasks as completed or pending
+- Remove tasks
+- Automatically save tasks using Local Storage
+- Responsive user interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- Tailwind CSS
+- Vite
+- Browser Local Storage
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AljuSabu/To-Do-List-Application
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd To-Do-List-Application
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal to view the application.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Screenshots
+
+![To-Do App](public/todo.png)
+
+## Author
+
+**Alju Sabu**
+
+- GitHub: [AljuSabu](https://github.com/AljuSabu)
